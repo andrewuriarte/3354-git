@@ -1,0 +1,6 @@
+a) 7 commits
+b) Tue Jan 24 22:28:11 2017 -0600
+c) log shows the history of commits while status shows what has and hasn't been committed.
+d) An untracked file is one that was not in previous versions of the repository, in other words it was newly added. An unstaged file would be one that is not set to be added to the repository. In other words, if you add a file with the add command it will then be staged.
+e) Put simply, the reset command will change the index but not affect the working tree. Checkout, however, does the opposite. Checkout will change the working tree without changing the index.
+f) The changes will not be pulled. They need to first be committed.
