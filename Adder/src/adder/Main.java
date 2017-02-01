@@ -6,9 +6,11 @@ public class Main {
         try {
             int result = addArguments(args);
             System.out.println(result);
-        } catch (Exception e) {
-            System.err.println("Please provide integers to add");
-        }
+        } catch (NumberFormatException e) {
+            System.out.println("Please provide only integers to add");
+        } catch (Exception e){
+		System.out.println("Please provide integers to add");
+	}
     }
 
     private static int addArguments(String[] args) {
